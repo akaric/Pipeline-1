@@ -1,4 +1,5 @@
-node('BR490'){
+node{
+  checkout scm
   stage('Build'){
     echo 'Building ...'
   }
