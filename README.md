@@ -1,3 +1,6 @@
-# hello-World
-test repository
-test repository first commit
+node('BR490') {
+    stage('Build') {
+        echo "success"
+    }
+}
+
